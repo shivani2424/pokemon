@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>pokemon</title>
+        <link rel="stylesheet" href="C:\Users\hp\Documents\poke2.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <img src="https://images7.alphacoders.com/592/thumb-1920-592678.jpg" height="250" width="300" style="float: right; ">
+            <h1 style="padding-left: 215px;">Pokemon Store</h1>
+
+            
+
+            <img src="https://cdn3.vectorstock.com/i/1000x1000/48/97/blue-home-icon-vector-1224897.jpg"height="35" width="40" style="padding-top:5px ; float: left;">
+
+            <button onclick="displayAllOnPage()" style="border: 4px; font-size: 25px;background-color: beige;padding-bottom: 10px;padding-top: 5px;background-color: rgb(139, 196, 243); ">HOME</button> <br>
+        <br>
+        <div class="container">
+            <img src="https://findicons.com/files/icons/1254/flurry_system/256/search.png"height="35" width="40" style=" float: left;padding-bottom: 3px;">
+            Name   :   <input type="text" name="searchBar" id= "searchBar" style="font-size: 60;"> <br>
+               <br>
+               <img src="https://thumbs.dreamstime.com/z/filter-icon-balance-equalizer-sound-settings-one-laconic-flat-simple-contours-blue-color-90345152.jpg" height="45" width="40" style="padding-left: 250px;"><br>
+               <br>
+            Height : <input type="number" id= "startHeight"> to <input type="number" id= "endHeight"><br>
+            <br>
+            
+            Weight : <input type="number" id= "startWeight"> to <input type="number" id= "endWeight"><br>
+            
+            
+            
+        </div>
+        
+
+        <div class="dex" id = "searchedData" >
+        </div>
+        <h1>Pokemon List</h1>
+
+            <ul id="pokedex"></ul>
+        </div>
+        <script src="C:\Users\hp\Documents\poke2.js"></script>
+    </body>
+
+</html>

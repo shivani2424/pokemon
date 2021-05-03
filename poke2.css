@@ -1,0 +1,88 @@
+body{
+    background-image:url('https://i.pinimg.com/originals/a0/9c/0a/a09c0aa29c67ba1d1656a06e1d74bfa6.jpg');
+    color: white;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
+#head{
+    font-style: italic;
+}
+    
+    .container {
+        color: rgb(0, 0, 0);
+        padding: 40px;
+        margin: 60px;
+        padding-left: 200px;
+        padding-right: 200px;
+        border-radius: 5;
+        font-size: 18px;
+
+    }
+    
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 54px;
+        color: brown;
+        text-align: center;
+        font-style: italic;
+        
+            }
+    
+    #pokedex {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 40px;
+        padding-inline-start: 0;
+    }
+    
+    .card {
+        background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190220/ourmid/pngtree-simple-beautiful-green-grass-image_6628.jpg');
+        list-style: none;
+        padding: 40px;
+        color: black;
+        font-size: x-large;
+      text-align: center;
+    }
+    
+    .card:hover {
+        animation: bounce 0.5s linear;
+    }
+    
+    .card-title {
+        text-transform: capitalize;
+        margin-bottom: 0px;
+        font-size: 32px;
+        font-weight: normal;
+    }
+    .card-subtitle {
+        margin-top: 5px;
+        color: black;
+        font-weight: lighter;
+    }
+    
+    .card-image {
+        height: 250px;
+    
+    }
+    @keyframes bounce {
+        20% {
+            transform: translateY(-6px);
+        }
+        40% {
+            transform: translateY(0px);
+        }
+    
+        80% {
+            transform: translateY(-2px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    
+    
